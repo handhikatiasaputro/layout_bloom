@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: #ececec;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 89, 0);
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .2s;
+}
+
+.hero {
+    background-color: #ece0d0;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 60%;
+}
+
+.hero h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+.hero .btn:hover{
+  background-color: rgb(255, 89, 0);
+}
+.hero .btn {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.hero-images {
+    display: flex;
+    gap: 10px;
+}
+
+.hero-images img {
+    width: 450px;
+    height: 300px;
+}
+
+.content {
+    padding: 50px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.content h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.image{
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    
+}
+.cards .card img:hover{
+    transform: scale(1.5);
+    transition: .5s;
+}
+
+.card h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.card .btn {
+    background-color: orange;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+.card .btn:hover{
+    background-color: rgb(255, 89, 0);
+    transition: .5s ease ;
+    color: red;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 50px;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.footer-container {
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-posts .h {
+
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.date {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.date-description {
+    margin-left: 20px;
+
+}
+
+.date-description p {
+    font-size: 10px;
+}
+
+.date-container {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.date-container h4 {
+    margin-top: 4px;
+}
+
+.date-container h4,
+.date-container p {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+}
+
+.about {
+    max-width: 40%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.about h4,
+.about p {
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 15px;
+}
+
+.contact {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.contact ul li {
+    margin-top: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.date:hover .date-container{
+    background-color: rgb(255, 89, 0);
+    transition: .3s ease;
+}
+
+.date:hover .date-container h4,
+.date:hover .date-container p{
+    color: red;
+    transition: .5s;
+}
+
+.bawah{
+    text-align: center;
+    padding: 20px;
+}
